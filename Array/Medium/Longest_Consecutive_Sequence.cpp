@@ -72,8 +72,10 @@ class Solution {
 int main() {
     Solution s;
     vector<int> v = {100,200,1,2,3,4};
+    vector<int> v1 = {100,200,1,2,2,3,4};
+    vector<int> v2 = {100,200,1,2,3,4,300};
     cout << s.Longest_consecutive_sequenece_brute(v);
-    cout << s.Longest_consecutive_sequenece_better(v);
-    cout << s.Longest_consecutive_sequenece_optimal(v);
+    cout << s.Longest_consecutive_sequenece_better(v1);
+    cout << s.Longest_consecutive_sequenece_optimal(v2);
     
 }
