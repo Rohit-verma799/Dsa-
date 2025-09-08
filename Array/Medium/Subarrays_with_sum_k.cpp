@@ -54,7 +54,7 @@ class Solution {
 
 int main() {
     Solution s;
-    vector<int> v = {1,2,3};
+    vector<int> v = {1,2,1,-1,1,1,1};
     int r = 3;
     cout << s.subarraySum_brute(v,r);
     cout << s.subarraySum_better(v,r);
