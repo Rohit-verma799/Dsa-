@@ -36,7 +36,7 @@ class Solution {
 
 int main() {
     Solution s;
-    vector<int> v = {2,3,-2,4};
+    vector<int> v = {1,2,3,-1,4,5,-2,66,7,-10,55};
     cout << s.maxproduct(v);
     
 }
