@@ -26,7 +26,7 @@ class Solution {
         }
 
         for(int i = low; i<=high; i++){
-            arr[i] = temp[i-low];
+            nums[i] = temp[i-low];
         }
     }
     void Divide(int arr[], int low , int high){
